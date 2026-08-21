@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AkademiX • LGS Öğrenci MVP</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:#f7f8ff;color:#111a46}
+button,input,select{font:inherit} button{cursor:pointer}
+.app{min-height:100vh;display:flex;justify-content:center;background:linear-gradient(180deg,#f8f9ff,#eef1ff)}
+.phone{width:100%;max-width:430px;min-height:100vh;background:#fff;position:relative;overflow:hidden}
+.top{padding:20px 22px 8px;text-align:center}.brand{display:flex;align-items:center;justify-content:center;gap:9px;font-weight:800;font-size:25px;letter-spacing:-1px}.mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#079fe8,#5730df);display:grid;place-items:center;color:#fff;font-weight:900;font-size:23px;box-shadow:0 7px 18px #5430df33}.x{color:#198ce7}.tag{display:inline-block;margin-top:6px;padding:7px 12px;border-radius:99px;background:#eee9ff;color:#6645d8;font-size:12px;font-weight:700}
+.screen{padding:18px 24px 34px;min-height:calc(100vh - 92px);display:flex;flex-direction:column}.hero{background:linear-gradient(150deg,#07133e,#172a66);border-radius:28px;padding:30px 22px;color:#fff;box-shadow:0 18px 45px #18245a30;min-height:620px;display:flex;flex-direction:column}.hello{font-size:30px;font-weight:800;margin-top:10px}.sub{color:#cbd5ff;line-height:1.5;margin-top:10px}.robot{width:190px;height:190px;margin:34px auto 24px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#16366f 0 38%,transparent 39%),linear-gradient(145deg,#fff,#cbd5ff);position:relative;box-shadow:0 20px 40px #0005}.robot:before{content:"";position:absolute;width:130px;height:100px;left:30px;top:42px;border-radius:38px;background:#0b173d;border:5px solid #8eeeff;box-shadow:0 0 25px #5ff5ff55}.robot:after{content:"• ᴗ •";position:absolute;left:51px;top:73px;color:#65f1ff;font-size:31px;letter-spacing:4px}.antenna{position:absolute;left:91px;top:15px;width:8px;height:32px;background:#6f55ff;border-radius:9px}.antenna:after{content:"";position:absolute;width:16px;height:16px;border-radius:50%;background:#50e7ff;left:-4px;top:-8px;box-shadow:0 0 15px #50e7ff}.menu{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto}.mini{padding:13px;border:1px solid #ffffff22;border-radius:15px;background:#ffffff12;color:#fff;text-align:left}.mini b{display:block;font-size:12px}.mini span{font-size:10px;color:#bdc8ff}
+.primary{border:0;border-radius:18px;padding:16px;background:linear-gradient(90deg,#5b32e8,#6b36ff);color:#fff;font-weight:800;margin-top:18px;box-shadow:0 10px 24px #5b32e844}.safe{font-size:10px;text-align:center;color:#9ba9df;margin-top:10px}
+.progress{display:flex;gap:6px;margin:4px 0 20px}.dot{height:5px;flex:1;border-radius:99px;background:#ddd}.dot.on{background:#6138e8}.card{background:#fff;border:1px solid #e5e7f1;border-radius:22px;padding:20px;box-shadow:0 12px 30px #1d24520b}.back{border:0;background:transparent;font-size:24px;color:#47506f;text-align:left;padding:0;margin-bottom:8px}.title{font-size:25px;font-weight:800}.muted{font-size:13px;color:#707891;line-height:1.45}.field{margin-top:14px}.field label{display:block;font-size:12px;font-weight:800;margin-bottom:7px}.field input,.field select{width:100%;border:1px solid #dddff0;border-radius:13px;padding:13px;background:#fafaff;color:#222}.choice{display:flex;gap:7px}.choice button{flex:1;border:1px solid #dddff0;background:#fff;border-radius:12px;padding:10px;font-size:12px}.choice button.sel{background:#eee9ff;border-color:#6941e8;color:#5930d9;font-weight:800}.analysis{margin-top:14px;padding:15px;border-radius:17px;background:#f7f5ff}.bar{height:8px;background:#e6e6ef;border-radius:99px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;width:64%;background:linear-gradient(90deg,#6034e8,#28a6e8);border-radius:99px}.subject{display:flex;justify-content:space-between;margin-top:14px;font-size:12px}.test{margin-top:auto}.hide{display:none}.footer{padding:8px 0;text-align:center;font-size:10px;color:#8990a8}
+</style>
+</head>
+<body>
+<div class="app"><main class="phone">
+<header class="top">
+  <div class="brand"><div class="mark">A</div><span>Akademi<span class="x">X</span></span></div>
+  <div class="tag">Akıllı analiz • Kişisel plan • AI Tutor • Sürekli gelişim</div>
+</header>
+
+<section id="s1" class="screen">
+  <div class="hero">
+    <div class="hello">Merhaba! 👋</div>
+    <div class="sub">Ben <b>AkademiX</b>.<br>Hedeflerine ulaşman için seni tanımak istiyorum.</div>
+    <div class="robot"><div class="antenna"></div></div>
+    <div class="menu">
+      <div class="mini">🎯 <b>Seni analiz eder</b><span>Kendine özel başlangıç</span></div>
+      <div class="mini">📊 <b>Gelişimini takip et</b><span>İlerlemeni gör</span></div>
+      <div class="mini">📚 <b>Kişisel planını oluştur</b><span>Hedefine göre çalış</span></div>
+      <div class="mini">❤️ <b>Her adımda yanında</b><span>AI Tutor desteği</span></div>
+    </div>
+    <button class="primary" onclick="go(2)">Başlayalım 🚀</button>
+    <div class="safe">🔒 Güvenli • Kişisel • Sadece sana özel</div>
+  </div>
+</section>
+
+<section id="s2" class="screen hide">
+  <button class="back" onclick="go(1)">‹</button>
+  <div class="progress"><i class="dot on"></i><i class="dot on"></i><i class="dot"></i></div>
+  <div class="card">
+    <div class="title">Seni daha iyi tanıyayım 😊</div>
+    <p class="muted">Doğru analiz yapabilmem için birkaç kısa soru.</p>
+    <div class="field"><label>LGS hedefin nedir?</label><input id="target" placeholder="Hedeflediğin lise"></div>
+    <div class="field"><label>Şu an hangi sınıftasın?</label><select><option>8. Sınıf</option><option>7. Sınıf</option></select></div>
+    <div class="field"><label>Günde ortalama ne kadar çalışabilirsin?</label><div class="choice"><button onclick="sel(this)">30 dk</button><button onclick="sel(this)">1 saat</button><button onclick="sel(this)">2 saat</button><button onclick="sel(this)">3+ saat</button></div></div>
+    <div class="field"><label>En güçlü olduğun ders hangisi?</label><select><option>Seçiniz</option><option>Türkçe</option><option>Matematik</option><option>Fen Bilimleri</option><option>İnkılap Tarihi</option><option>Din Kültürü</option><option>İngilizce</option></select></div>
+    <div class="field"><label>En çok zorlandığın ders hangisi?</label><select><option>Seçiniz</option><option>Türkçe</option><option>Matematik</option><option>Fen Bilimleri</option><option>İnkılap Tarihi</option><option>Din Kültürü</option><option>İngilizce</option></select></div>
+    <div class="field"><label>Son denemeye ait netin var mı?</label><div class="choice"><button onclick="sel(this)">Evet, var</button><button onclick="sel(this)">Hayır, yok</button></div></div>
+    <button class="primary" onclick="go(3)">Devam Et →</button>
+  </div>
+  <div class="footer">2 / 6</div>
+</section>
+
+<section id="s3" class="screen hide">
+  <div class="card">
+    <div class="robot" style="width:135px;height:135px;margin:5px auto 12px;transform:scale(.78)"><div class="antenna"></div></div>
+    <div class="title" style="text-align:center">Seni analiz ettim! 🎉</div>
+    <p class="muted" style="text-align:center">İşte şu anki başlangıç durumun:</p>
+    <div class="analysis"><b>Genel Seviye</b><strong style="float:right;color:#e99b24">ORTA</strong><div class="bar"><i></i></div><p class="muted">Güzel bir başlangıç! Düzenli çalışırsan hedefe ulaşman mümkün.</p></div>
+    <div class="subject">Matematik <b>Geliştirilmeli</b></div><div class="bar"><i style="width:42%"></i></div>
+    <div class="subject">Türkçe <b>İyi</b></div><div class="bar"><i style="width:78%"></i></div>
+    <div class="subject">Fen Bilimleri <b>Öncelikli</b></div><div class="bar"><i style="width:48%"></i></div>
+    <div class="subject">İnkılap Tarihi <b>İyi</b></div><div class="bar"><i style="width:72%"></i></div>
+    <div class="subject">İngilizce <b>Orta</b></div><div class="bar"><i style="width:60%"></i></div>
+    <button class="primary" onclick="alert('Bir sonraki aşama: AkademiX 15 soruluk LGS seviye değerlendirmesi.')">Kişisel Planımı Oluştur →</button>
+  </div>
+  <div class="footer">3 / 6</div>
+</section>
+</main></div>
+<script>
+function go(n){[1,2,3].forEach(i=>document.getElementById('s'+i).classList.toggle('hide',i!==n));scrollTo(0,0)}
+function sel(el){el.parentElement.querySelectorAll('button').forEach(b=>b.classList.remove('sel'));el.classList.add('sel')}
+</script>
+</body>
+</html>
